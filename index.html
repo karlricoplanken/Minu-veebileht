@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karl-Rico | Minu veebileht</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0F172A;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 25px 8%;
+            background: #111C30;
+            border-bottom: 1px solid #334155;
+        }
+
+        header h2 {
+            margin: 0;
+            color: #38BDF8;
+        }
+
+        main {
+            max-width: 1100px;
+            margin: 60px auto;
+            padding: 20px;
+        }
+
+        .intro {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .tekst {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        h1 {
+            font-size: 44px;
+            margin-bottom: 10px;
+        }
+
+        h1 span {
+            color: #38BDF8;
+        }
+
+        p {
+            color: #CBD5E1;
+            font-size: 18px;
+        }
+
+        .profiilipilt {
+            width: 280px;
+            max-width: 100%;
+            border-radius: 20px;
+            border: 3px solid #38BDF8;
+        }
+
+        .kaart {
+            background: #1E293B;
+            border: 1px solid #334155;
+            border-radius: 18px;
+            padding: 25px;
+            margin-top: 35px;
+        }
+
+        h2 {
+            color: #38BDF8;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            display: inline-block;
+            background: #0284C7;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+
+        a:hover {
+            background: #0369A1;
+        }
+
+        footer {
+            text-align: center;
+            color: #94A3B8;
+            padding: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>KR. | Minu veebileht</h2>
+    </header>
+
+    <main>
+
+        <section class="intro">
+            <div class="tekst">
+                <h1>Tere! Mina olen <span>Karl-Rico</span></h1>
+
+                <p>
+                    Olen alustav tarkvaraarendaja.
+                    Mulle meeldib õppida uusi oskusi,
+                    avastada tehnoloogiat ja panna
+                    ennast uutes olukordades proovile.
+                </p>
+            </div>
+
+            <img src="minu-pilt.jpg"
+                 alt="Minu profiilipilt"
+                 class="profiilipilt">
+        </section>
+
+        <section class="kaart">
+            <h2>Minust lähemalt</h2>
+            <p>
+                Õpin nooremaks tarkvaraarendajaks.
+                Minu eesmärk on omandada teadmisi
+                programmeerimisest ja veebiarendusest.
+            </p>
+        </section>
+
+        <section class="kaart">
+            <h2>Minu hobid ja huvid</h2>
+            <ul>
+                <li>Autod ja autotehnika</li>
+                <li>Jalgpall</li>
+                <li>Arvutid ja tehnoloogia</li>
+                <li>Programmeerimine</li>
+            </ul>
+        </section>
+
+        <section class="kaart">
+            <h2>Kasulik link</h2>
+            <p>
+                GitHub on keskkond, kus saab
+                hoida ja jagada programmeerimisprojekte.
+            </p>
+
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                Külasta GitHubi
+            </a>
+        </section>
+
+    </main>
+
+    <footer>
+        karl.planken@vikk.ee Viljandi
+    </footer>
+
+</body>
+</html>
